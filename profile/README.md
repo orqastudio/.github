@@ -2,7 +2,7 @@
 ![Status](https://img.shields.io/badge/status-pre--release-orange)
 
 <p align="center">
-  <img src="https://github.com/orqastudio/orqastudio-brand/blob/main/assets/banners/banner-1680x240.png?raw=1">
+  <img src="https://github.com/orqastudio/.github/blob/main/assets/banners/banner-1680x240.png?raw=1">
 </p>
 
 <p align="center">
@@ -24,36 +24,38 @@ AI acts as a thinking partner. Humans make the decisions.
 
 ---
 
-## Getting Started
+## Repository
 
-All development happens through the dev environment:
+All development happens in a single monorepo:
 
 ```bash
-git clone git@github.com:orqastudio/orqastudio-dev.git
-cd orqastudio-dev
+git clone git@github.com:orqastudio/app.git
+cd app
 make install
 ```
 
 One command installs prerequisites, builds everything, and verifies the setup.
 
+The monorepo contains the Tauri desktop app, libraries, plugins, connectors, integrations, and tooling.
+
 ---
 
 ## Contributing
 
-Contributions to the core project and official plugins go through [orqastudio-dev](https://github.com/orqastudio/orqastudio-dev). See [CONTRIBUTING.md](https://github.com/orqastudio/orqastudio-dev/blob/main/CONTRIBUTING.md).
+See [CONTRIBUTING.md](https://github.com/orqastudio/app/blob/main/CONTRIBUTING.md) in the monorepo.
 
-Community plugins are maintained independently and submitted to the [community registry](https://github.com/orqastudio/orqastudio-registry-community) via PR.
+Community plugins are maintained independently and submitted to the [community registry](https://github.com/orqastudio/community-plugins) via PR.
 
 ---
 
 ## Project Status
 
-⚠️ Pre-release — under active development. APIs and interfaces may change until v1.0.0.
+Pre-release — under active development. APIs and interfaces may change until v1.0.0.
 
 ---
 
 ## License
 
-BSL-1.1 with Ethical Use Addendum. Free for personal use, aligned charities, education, and open-source. See [LICENSE](https://github.com/orqastudio/orqastudio-dev/blob/main/app/LICENSE) and [CHANGE-LICENSE](https://github.com/orqastudio/orqastudio-dev/blob/main/app/CHANGE-LICENSE).
+BSL-1.1 with Ethical Use Addendum. Free for personal use, aligned charities, education, and open-source. See [LICENSE](https://github.com/orqastudio/app/blob/main/LICENSE).
 
 Copyright (c) 2026 Bobbi Byrne-Graham
